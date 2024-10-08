@@ -1,0 +1,5 @@
+@media(min-width:576px) {
+    p {
+        border: 2px dotted rgb(247, 5, 46);
+    }
+}

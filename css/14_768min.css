@@ -1,0 +1,5 @@
+@media(min-width:768px) {
+    p {
+        border: 3px double yellow;
+    }
+}
