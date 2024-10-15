@@ -1,0 +1,384 @@
+@media(min-width:768px) {
+
+
+    
+
+    
+    nav {
+        /* border: 1px solid; */
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .log {
+        /* border: 1px solid red; */
+        width: 30%;
+    }
+    
+    .log h1 {
+        font-size: 30px;
+        margin: 5px 0px 1px 30px;
+        text-align: start;
+    }
+    
+    .header {
+        /* border: 1px solid green; */
+        width: 70%;
+    }
+    
+    .header ul {
+        text-align: end;
+        padding: 10px 0px;  
+    }
+    
+    .header ul li {
+        display: inline;
+        margin: 0px 10px;
+    }
+    
+    .header ul li a {
+        font-size: 15px;
+       
+    }
+    /* section1  */
+
+
+.main .left {
+    width: 50%;
+    /* border: 1px solid red; */
+   
+}
+.main .left h6 {
+    margin: 30px 0px 0px 30px;
+   font-size: 20px
+}
+.main .left h3 {
+    margin: 10px 0px 0px 30px;
+    font-size: 40px;
+}
+
+.main .left p{
+    margin: 15px 0px 0px 30px;
+}
+.main .left button{
+    margin: 15px 0px 0px 30px;
+    padding: 12px 20px;
+    font-size: 15px;
+}
+
+
+.main .right img {
+    width: 100%;
+    height: 300px;
+}
+
+/* .section2  */
+.section2 .font{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    width: 100%;
+    height: auto;
+    gap:0px 20px;
+}
+
+
+/* section3 */
+.section3 .hot h2{
+    margin-left: 0px;
+    padding: 10px;
+   }
+  .section3 .paris {
+   display: grid;
+   grid-template-columns:repeat(2,1fr);
+   /* grid-template-columns:100px 200px; */
+
+   grid: 0px 50px;
+   margin: 0px 50px 0px 50px;
+   }
+  /*section5 */
+  .section5{
+    /* border: 2px solid red; */
+   }
+   .section5 .top{
+    display: block;
+    /* width: 100%; */
+    height: auto;
+   }
+   .section5 .top .left{
+    width: 100%;
+    margin: 50px 50px;
+   }
+
+
+   .section5 .top h3{
+  font-size: 40px;
+   }
+   .section5 .top .right{
+    width: 100%;
+    margin: 40px 0px;
+    
+
+   }
+ 
+ /* .section6 */
+ .section6 .top {
+    /* border: 1px solid red; */
+}
+
+.section6 .top .left {
+    /* border: 1px solid red; */
+    margin-left: 50px;
+
+}
+
+.section6 .left span {
+
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 80px;
+    color: #006989;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.section6 .left span::before {
+
+    content: '';
+    /* display: block; */
+    width: 55px;
+    height: 3px;
+    background-color: #DB162F;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 50%;
+}
+
+
+.section6 .left h3 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.section6 .top .right {
+    /* border: 1px solid red; */
+    margin: 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 0px;
+
+}
+
+.section6 .top .right .first {
+    margin: 10px;
+
+}
+
+.section6 .top .right .first label {
+    font-size: 20px;
+
+}
+
+.section6 .top .right .first input {
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border:0px solid;
+    background-color: #F2F2F2;
+
+}
+
+.section6 .top .right .first select {
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border:0px solid;
+    background-color: #F2F2F2;
+
+}
+
+.section6 .top .right .first button {
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(15, 85, 85);
+    border:0px solid;
+    color: white;
+}
+
+
+
+/* .section7  */
+.section7 .top{
+    /* border:  1px solid red; */
+}
+
+.section7 .right{
+    /* border:  1px solid red; */
+    display: flex;
+    width: 100%;
+}
+.section7 .right .up{
+ 
+    width: 0%;
+} 
+.section7 .right .down{
+    /* border:  1px solid red; */
+ margin-top: 50px;
+    width: 100%;
+}
+
+
+.section7 .right .down h1{
+    font-size: 40px;
+}
+.section7 .right .down p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.section7 .right .down .form{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.section7 .right .down .form input{
+  
+    width: 40%;
+    height: 40px;
+}
+.section7 .right .down .form button{
+    width: 15%;
+}
+
+/* section8  */
+.section8 .top .down {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+
+.section8 .top .down .botom{
+  margin-top: 10px;
+}
+.section8 .top .down .botom p{
+    font-size: 18px;
+    margin: 30px ;
+  }
+
+  .section8 .top .down .profile {
+    display: flex;
+    margin-left: 40px;
+
+  }
+
+  .section8 .top .down .profile .div img {
+     width: 100%;
+     height: 80px;
+     border-radius: 50%;
+
+  }
+
+   /* .footer  */
+
+   
+  footer .footer{
+    /* border:1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px 10px;
+    height: auto;
+  }
+
+  footer .footer .top h2{
+    font-size: 35px;
+    margin: 10px 0px 0px 15px;
+  }
+  footer .footer .top p{
+    font-size: 14px;
+    margin: 10px 0px 0px 15px;
+    text-align: justify;
+ 
+  }
+  footer .footer .top span{
+    font-size: 30px;
+ 
+    margin: 20px 0px 0px 10px;
+ 
+  }
+ 
+  
+  footer .footer .right h4, footer .footer .bottom h4{
+  font-size: 20px;
+  margin: 20px 0px 0px 10px;
+ 
+  }
+  footer .footer .right ul li,footer .footer .bottom ul li{
+    font-size: 18px;
+    margin: 10px 0px 0px 30px;
+   
+    }
+
+    footer .footer .left h2{
+        font-size: 20px;
+        margin: 20px 0px 0px 0px;
+       
+        }
+
+        footer .footer .left .img{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 10px 5px;
+           
+            }
+            
+        footer .footer .left .img img{
+            width: 100%;
+            height: 80px;
+            border-radius: 10px;
+            margin-top: 5px;
+              
+               }
+  
+/* .section10  */
+
+  .section10 .top {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .section10 .top .right {
+    
+    width: 60%;
+  }
+  .section10 .top .right p  {
+    
+   font-size: 15px;
+ margin-left: 20px;
+  }
+
+  .section10 .top .left {
+    
+    width: 40%;
+  }
+  .section10 .top .left a{
+    
+
+ margin: 0px 10px;
+
+ font-size: 15px;
+  }
+
+
+
+}
