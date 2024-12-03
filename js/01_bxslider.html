@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jquery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.js" integrity="sha512-k8FMS+oX2UczLWhVnKumkY9JqMaOIS/a3SKxV1+d6dd4DwU17qDppu2WxpZ9IX6QM7dqLzhZtT0ncGpeR+P3Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        img{
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bxslider" style="width:100%;">
+        <div><img src="img/coffee1-7325690f507d48962d312be15d9d8929be4a5ff04d184d5ed0a96c1b27940260.jpg" title="Coffee 1" /></div>
+        <div><img src="img/coffee2-8bb17517b21cc5b38f3ea7d14cfc4b4c82cc51b99e82bfc3a6d02688ab6c5988.jpg" title="Coffee 2" /></div>
+        <div><img src="img/coffee3-02c76c3b922183d7c5144e6856065ad68834ddc7ab5367481a225c516a308cb8.jpg" title="Coffee 3" /></div>
+      </div>
+
+      <script>
+          $(function(){
+    $('.bxslider').bxSlider({
+      mode: 'fade',
+      captions: true
+    //   slideWidth: 600
+    });
+  });
+      </script>
+</body>
+</html>
