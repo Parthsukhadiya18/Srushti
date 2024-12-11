@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">ADD</button>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, quibusdam?</p>
+    <script>
+        let id = document.getElementById('btn');
+        let p1 = document.getElementById('p1');
+        id.addEventListener("click", function () {
+            id.style.color = "red"
+            p1.innerText = "parth Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+
+        })
+    </script>
+</body>
+
+</html>
