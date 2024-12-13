@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="alert('hi')">alert</button>
+    <button onclick="confirmFun()">confirm</button>
+    <button onclick="promptFun()">prompt</button>
+    <script>
+        function confirmFun(params) {
+            let text = ""
+            if (confirm("enter name")) {
+                text = "ok"
+            } else {
+                text = "cancle"
+            }
+            console.log(text);
+        }
+
+
+        function promptFun(params) {
+            let string = ""
+            let x = prompt("enter name your!")
+            if (x == "") {
+                string = "enter value"
+            } else {
+                string = "Name " + x
+            }
+            console.log(string);
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
